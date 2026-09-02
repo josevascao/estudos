@@ -26,6 +26,6 @@ FLUSH PRIVILEGES;
 SQL
 
 echo ">> Instalando dependencias Python..."
-pip3 install -q -r requirements.txt
+sudo apt-get install -y python3-pymysql
 
 echo ">> Pronto! Execute: python3 -m estudo"
